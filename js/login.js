@@ -19,13 +19,14 @@ function validate() {
 	var username = document.getElementById("username").value
 	var password = document.getElementById("password").value
 	if (username == 'abc' && password == "xyz") {
-		window.location.href = "https://dreamsoffashion.netlify.app/homepage";
-
-
-		return false
-	}
-	else {
-		alert('login failed')
+		let text = "Login successful\nProceed?";
+		if(confirm(text) == true) {
+			reload();
+		} else {
+			window.location.reload(true);
+		}
+	} else {
+		alert('Login failed');
 	}
 }
 function svalidate() {
@@ -33,10 +34,13 @@ function svalidate() {
 	var spassword = document.getElementById("spassword").value
 	var sspassword = document.getElementById("sspassword").value
 	if (spassword == sspassword) {
-		alert('signed up sucessfully');
+		alert('Signed up sucessfully');
 		return false
 	}
 	else {
-		alert('signup failed')
+		alert('Signup failed');
 	}
+}
+function reload() {
+	window.location.href = "homepage.html/";
 }

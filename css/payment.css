@@ -1,12 +1,36 @@
-<style>
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;500&family=Playfair+Display&display=swap');
+
 body {
-  font-family: Arial;
-  font-size: 17px;
-  padding: 8px;
+	font-family: Arial;
+	font-size: 16px;
+	margin: 0;
+	background-color: #ffece8;
 }
 
 * {
   box-sizing: border-box;
+}
+
+.header {
+	height: 80px;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+    background-color: #bab2b5;
+}
+.logo {
+	height: 80px;
+	width: 80px;
+	margin: 0px 60px 0px 100px;
+	float: left;
+}
+.headtext {
+	width: 600px;
+	margin: 0 0 0 400px;
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+    font-size: 58px;
+	color: #ac3b61;
 }
 
 .row {
@@ -92,14 +116,3 @@ span.price {
   float: right;
   color: grey;
 }
-
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
-@media (max-width: 800px) {
-  .row {
-    flex-direction: column-reverse;
-  }
-  .col-25 {
-    margin-bottom: 20px;
-  }
-}
-</style>

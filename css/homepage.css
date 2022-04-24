@@ -1,6 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;500&family=Playfair+Display&display=swap');
+
 body {
   background-color: #ffece8;
+  margin: 0;
 }
+
+.header {
+	height: 80px;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+    background-color: #bab2b5;
+}
+.logo {
+	height: 80px;
+	width: 80px;
+	margin: 0px 60px 0px 100px;
+	float: left;
+}
+.headtext {
+	width: 600px;
+	margin: 0 0 0 400px;
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+    font-size: 58px;
+	color: #ac3b61;
+}
+
 /* Main header*/
 .mainbox {
   border: 1px solid transparent;
@@ -52,7 +78,7 @@ ol li {
   left: 45%;
   list-style-type: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
 }
 ol li a {
   text-decoration: none;
@@ -150,6 +176,7 @@ form input[type="submit"] {
 form input[type="submit"]:hover {
   background-color: hotpink;
 }
+
 /* filpcarts*/
 .productholder {
   flex-wrap: wrap;
