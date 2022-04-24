@@ -1,6 +1,7 @@
 body {
   background-color: #ffece8;
 }
+
 .main {
 	height: 30%;
 	width: 100%;
@@ -10,7 +11,7 @@ body {
 	background-color: cyan;
 }
 .cont {
-	height: 70%;
+	height: auto;
 	width: 100%;
 	background-color: green;
 }
@@ -120,19 +121,23 @@ h2 {
   font-weight: bolder;
 }
 .cover {
-	background-color: blue;
+  float: right;
   background-size: cover;
 }
+
+
 /*login*/
 .c1 {
+  border: 0 10%;
   display: grid;
   justify-items: left;
-  padding-top: 40px;
-  padding-left: 80px;
+  width: 55%;
+  float: right;
+  background-color: green;
 }
 .main-container {
   overflow: hidden;
-  height: 103%;
+  height: 100%;
   max-width: 390px;
   background-color: #ffece8;
   border-radius: 5%;
