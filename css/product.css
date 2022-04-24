@@ -1,5 +1,4 @@
-@import
- url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -15,7 +14,7 @@ body {
         flex-wrap: wrap;
         align-items:center;
         justify-content:space-around;
-        }   
+        }
 .miniproductholder {
             display: flex;
            flex-wrap: wrap;
@@ -23,8 +22,8 @@ body {
            justify-content:space-around;
            padding-left: 20px;
            padding-right: 20px;
-           float: left;  
-           }   
+           float: left;
+           }
 .logo {
         height: 80px;
         width: 80px;
@@ -43,7 +42,7 @@ body {
 	padding: 0px;
     background-color:palevioletred;
     font-weight: bolder;
-    
+
 }
 
 .headtext {
@@ -66,7 +65,7 @@ body {
     background-color: pink;
 }
 .searchtext {
-    font-size: 35px; 
+    font-size: 35px;
     margin-left: 40px;
     font-weight: bolder;
     color: black;
@@ -110,7 +109,7 @@ body {
     border-radius: 1rem;
     margin: 1.5rem;
     transition: 0.3s;
-    background-color:palevioletred;    
+    background-color:palevioletred;
 }
 .card:hover{
     transform: scale(1.1);
@@ -146,6 +145,3 @@ body {
     font-size: 10px;
     font-weight: bold;
 }
-
-
-
