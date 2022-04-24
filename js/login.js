@@ -19,7 +19,7 @@ function validate() {
 	var username = document.getElementById("username").value
 	var password = document.getElementById("password").value
 	if (username == 'abc' && password == "xyz") {
-		window.location.href = "product.html";
+		window.location.href = "https://dreamsoffashion.netlify.app/homepage";
 
 
 		return false
