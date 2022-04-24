@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="cart.css"/>
+<title>Shopping Cart</title>
+</head>
+
+<body>
+	<script src="cart.js"></script>
+	<div class="header">
+		<div class="logo"><img src="images/logo.png" height="80" width="80"></div>
+		<div class="logo headtext" id="head">DREAMS OF FASHION</div>
+	</div>
+	<div class="outer">
+		<div class="cart"><b>MY CART</b></div>
+		<div class="inner" id="_inner">
+			<div class="bars">
+				<div class="bar1">
+					<div class="step" id="step1"><b>STEP 1</div>
+				</div>
+				<div class="bar2">
+					<div class="step" id="step2">STEP 2</div><div class="step" id="step3">STEP 3</b></div>
+				</div>
+			</div>
+			<div class="invcount">You have 3 item(s) in your cart</div>
+			<div class="item">
+				<div class="item_img"><img src="images/scrunchy.jpg"></div>
+				<div class="item_name">Scrunchies</div>
+				<div class="item_count">
+					<div class="count">6</div>
+					<div class="price">Rs. 120</div>
+					<div class="add">ADD</div>
+					<div class="delete">DELETE</div>
+				</div>
+				<div class="item_specs">
+					ITEM: A001<br>
+					SIZE: S<br>
+					COLOR: GREEN
+				</div>
+			</div>
+			<div class="item">
+				<div class="item_img"><img src="images/baby1.jpg"></div>
+                    <div class="item_name">Frock</div>
+                    <div class="item_count">
+						<div class="count">1</div>
+                        <div class="price">Rs. 149</div>
+						<div class="add">ADD</div>
+                        <div class="delete">DELETE</div>
+					</div>
+                    <div class="item_specs">
+						ITEM: A002<br>
+                        SIZE: S<br>
+                        COLOR: ORANGE
+					</div>
+			</div>
+			<div class="item">
+				<div class="item_img"><img src="images/baby2.jpg"></div>
+                    <div class="item_name">Winter Wear Suit</div>
+                    <div class="item_count">
+						<div class="count">1</div>
+                        <div class="price">Rs. 499</div>
+						<div class="add">ADD</div>
+                        <div class="delete">DELETE</div>
+					</div>
+                    <div class="item_specs">
+						ITEM: A003<br>
+                        SIZE: S<br>
+                        COLOR: RED
+					</div>
+			</div>
+			<div class="update_info">
+				<div class="total">TOTAL: Rs.4999</div>
+			</div>
+			<button class="continue" onclick="step2()">CONTINUE</button>
+
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,280 @@
+body {
+  background-color: #ffece8;
+}
+.main {
+	height: 30%;
+	width: 100%;
+	margin: 0;
+	border: 0;
+	float: left;
+	background-color: cyan;
+}
+.cont {
+	height: 70%;
+	width: 100%;
+	background-color: green;
+}
+/* Main header*/
+.mainbox {
+  border: 1px solid transparent;
+  background-color: hotpink;
+  height: 30px;
+}
+ul {
+  float: left;
+  color: black;
+}
+ul li {
+  margin-top: -10px;
+  float: left;
+  position: relative;
+  left: 300%;
+  width: 100px;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  list-style-type: none;
+}
+ul li a {
+  text-decoration: none;
+  color: black;
+}
+h5 {
+  margin-top: 10px;
+  color: black;
+  margin: 7px 12px;
+  position: relative;
+  left: -17rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: normal;
+}
+/*subheader*/
+.subbox {
+  border: 1px solid transparent;
+  background-color: pink;
+  height: 50px;
+}
+ol {
+  float: left;
+}
+ol li {
+  float: left;
+  width: 90px;
+  position: relative;
+  left: 25%;
+  list-style-type: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+}
+ol li a {
+  text-decoration: none;
+  color: black;
+}
+ol li a:hover {
+  border-bottom: 4px solid rgb(0, 0, 0);
+}
+.fa-search {
+  position: absolute;
+  left: 82%;
+  top: 9%;
+  color: black;
+}
+.fa-user {
+  position: absolute;
+  left: 85%;
+  top: 9%;
+  color: black;
+}
+.fa-shopping-cart {
+  position: absolute;
+  left: 88%;
+  top: 9%;
+  color: black;
+  width: 25px;
+  height: -30px;
+  border-radius: 100px;
+  background-color: antiquewhite;
+  margin-top: -2px;
+  margin-left: -4px;
+  text-align: left;
+}
+h4 {
+  color: red;
+  position: absolute;
+  left: 88.8%;
+  top: 4%;
+  width: 18px;
+  height: -50px;
+  border-radius: 100px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2 {
+  position: relative;
+  left: -65%;
+  text-transform: uppercase;
+  font-style: italic;
+  padding-top: 10px;
+  margin-top: 4px;
+  font-weight: bolder;
+}
+.cover {
+	background-color: blue;
+  background-size: cover;
+}
+/*login*/
+.c1 {
+  display: grid;
+  justify-items: left;
+  padding-top: 40px;
+  padding-left: 80px;
+}
+.main-container {
+  overflow: hidden;
+  height: 103%;
+  max-width: 390px;
+  background-color: #ffece8;
+  border-radius: 5%;
+  box-shadow: 0px 15px 20px rgb(0, 0, 0, 0.2);
+}
+
+.main-container .title-text {
+  display: flex;
+  width: 150%;
+  padding-left: 50px;
+}
+.main-container .title-text .title {
+  text-align: center;
+  width: 50%;
+  font-size: 35px;
+  font-weight: 600;
+  transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.main-container .form-container {
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+.form-container .slide-controls {
+  position: relative;
+  display: flex;
+  height: 50px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 5px;
+  margin: 30px 0 10px 0;
+  background: #fff;
+}
+.slide-controls .slide {
+  height: 100%;
+  width: 100%;
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 48px;
+  cursor: pointer;
+  z-index: 1;
+  transition: all 0.6s ease;
+}
+.slide-controls .slider-tab {
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  left: 0;
+  z-index: 0;
+  border-radius: 5px;
+  background: -webkit-linear-gradient(right, rgb(248, 173, 215), #ffece8);
+  transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+input[type="radio"] {
+  display: none;
+}
+#signup:checked ~ .slider-tab {
+  left: 50%;
+}
+#signup:checked ~ label.login {
+  color: #000;
+}
+#login:checked ~ label.signup {
+  color: #000;
+}
+#login:checked ~ label.login {
+  cursor: default;
+  user-select: none;
+}
+.form-inner {
+  display: flex;
+  width: 200%;
+}
+.form-inner form {
+  width: 50%;
+  text-align: center;
+  transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.form-inner form .lg {
+  height: 60px;
+  width: 100%;
+  margin-top: 25px;
+}
+.form-inner form .lg1 {
+  height: 50px;
+  width: 100%;
+  margin-top: 20px;
+}
+.form-inner form .lg input {
+  /* email adress style change here and size them in the above lines as wll*/
+  height: 77%;
+  width: 77%;
+  outline: none;
+  padding-left: 17px;
+  font-size: 14px;
+  border-radius: 1.5em; /*if u want straight */
+  border: 0.8px solid rgb(145, 143, 143) /* put gray */;
+  border-bottom-width: 4px;
+  transition: all 0.5s ease;
+}
+.form-inner form .lg1 input {
+  /*for bottom*/
+  height: 90%;
+  width: 90%;
+  outline: none;
+  font-size: 14px;
+  border-radius: 1.5em;
+}
+.form-inner form .lg input:focus {
+  border-color: rgb(0, 0, 0);
+}
+.form-inner form .forgotpass {
+  margin-top: 7px;
+}
+.form-inner form .forgotpass a,
+.form-inner form .signuplink a {
+  color: rgb(192, 5, 152);
+  text-decoration: none;
+}
+.form-inner form .signuplink a {
+  /*link*/
+  text-align: center;
+  margin-top: 30px;
+}
+.form-inner form .forgotpass a:hover,
+.form-inner form .signuplink a:hover {
+  text-decoration: underline;
+}
+.form .lg1 input[type="submit"] {
+  /*login button*/
+  color: rgb(20, 20, 20);
+  font-size: 17px;
+  font-weight: 600;
+  padding-left: 0px;
+  border: none;
+  cursor: pointer; /*for login buttom color*/
+  background-color: lightgray;
+}
+form .lg1 input:hover {
+  /* forr botttom herere*/
+  background-color: hotpink;
+  color: black;
+}

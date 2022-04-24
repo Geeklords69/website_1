@@ -1,0 +1,151 @@
+@import
+ url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0.3px;
+}
+body {
+        background-color: #FFFDD0 ;
+        }
+.productholder {
+         display: flex;
+        flex-wrap: wrap;
+        align-items:center;
+        justify-content:space-around;
+        }   
+.miniproductholder {
+            display: flex;
+           flex-wrap: wrap;
+           align-items:center;
+           justify-content:space-around;
+           padding-left: 20px;
+           padding-right: 20px;
+           float: left;  
+           }   
+.logo {
+        height: 80px;
+        width: 80px;
+        margin: 0px 60px 0px 100px;
+        float: left;
+}
+.arange {
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.header {
+    height: 80px;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+    background-color:palevioletred;
+    font-weight: bolder;
+    
+}
+
+.headtext {
+    width: 600px;
+	margin-left: 420px;
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+    font-size: 50px;
+	color: #ac3b61;
+
+}
+.home {
+    float: right;
+    padding-right: 2px;
+}
+
+.frame {
+    height: 500px;
+    width: 100%;
+    background-color: pink;
+}
+.searchtext {
+    font-size: 35px; 
+    margin-left: 40px;
+    font-weight: bolder;
+    color: black;
+    background-color: white;
+    padding-right: 6px;
+    text-align: center;
+}
+.search {
+    height: 60px;
+	width: 523px;
+    margin-left: 650px;
+    padding: 0%;
+	background-color:pink;
+}
+.searchlogo {
+    float: right;
+    height: 30;
+    width: 40;
+}
+.minicard {
+    cursor: pointer;
+    display:flex;
+    flex-direction: column;
+    min-width: 50px;
+    max-width: 80px;
+    text-align: center;
+    min-height: 80px;
+    border-radius: 1rem;
+    margin: 1.9rem;
+    transition: 0.3s;
+    background-color:palevioletred;
+}
+.card {
+    cursor: pointer;
+    display:flex;
+    flex-direction: column;
+    min-width: 200px;
+    max-width: 300px;
+    text-align: center;
+    min-height: 370px;
+    border-radius: 1rem;
+    margin: 1.5rem;
+    transition: 0.3s;
+    background-color:palevioletred;    
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.minicard:hover{
+    transform: scale(1.1);
+}
+.home:hover{
+    transform: scale(1.1);
+}
+.searchlogo:hover{
+    transform: scale(1.1);
+}
+.cardtext * {
+    margin: 0.5rem;
+}
+.categorytext{
+    font-weight: 400;
+    opacity: 0.7;
+}
+.brandtext {
+    color: #4287f5;
+}
+.pricetext{
+    font-size: large;
+}
+.offertext {
+    font-size: small;
+}
+.minicardtext {
+    margin-top: 5px;
+    color: black;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+
+

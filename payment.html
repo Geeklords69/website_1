@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/payment.css">
+</head>
+<body>
+    <img src="logoo.jpg" lenght="2000" width="1400"></br></br>
+
+<h2> CHECKOUT FORM</h2><body align="center" bgcolor="PINK"></body>
+
+<div class="row">
+  <div class="col-75">
+    <div class="container" bgcolor="LIGHTPINK">
+
+      <form action="/action_page.php">
+
+        <div class="row">
+          <div class="col-50">
+            <h3>BILLING ADDRESS</h3>
+            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+            <input type="text" id="fname" name="firstname" placeholder=" ">
+            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+            <input type="text" id="email" name="email" placeholder=" ">
+            <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+            <input type="text" id="adr" name="address" placeholder=" ">
+            <label for="city"><i class="fa fa-institution"></i> City</label>
+            <input type="text" id="city" name="city" placeholder=" ">
+
+            <div class="row">
+              <div class="col-50">
+                <label for="state">State</label>
+                <input type="text" id="state" name="state" placeholder="NY">
+              </div>
+              <div class="col-50">
+                <label for="zip">Zip</label>
+                <input type=" " id=" " name=" " placeholder=" ">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-50">
+            <h3>PAYMENT </h3>
+            <label for="fname">Accepted Cards</label>
+            <div class="icon-container">
+              <i class="fa fa-cc-visa" style="color:navy;"></i>
+              <i class="fa fa-cc-amex" style="color:blue;"></i>
+              <i class="fa fa-cc-mastercard" style="color:red;"></i>
+              <i class="fa fa-cc-discover" style="color:orange;"></i>
+            </div>
+            <label for="cname">Name on Card</label>
+            <input type="text" id="cname" name="cardname" placeholder=" ">
+            <label for="ccnum">Credit card number</label>
+            <input type="text" id="ccnum" name="cardnumber" placeholder=" ">
+            <label for="expmonth">Exp Month</label>
+            <input type="text" id="expmonth" name="expmonth" placeholder=" ">
+            <div class="row">
+              <div class="col-50">
+                <label for="expyear">Exp Year</label>
+                <input type="text" id="expyear" name="expyear" placeholder=" ">
+              </div>
+              <div class="col-50">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder=" ">
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <label>
+          <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+        </label>
+        <input type="submit" value="Continue to checkout" class="btn">
+      </form>
+    </div>
+  </div>
+  <div class="col-25">
+    <div class="container">
+      <h4>CART <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>4</b></span></h4>
+      <p><a href="#">Product 1:</a> <span class="price"> </span></p>
+      <p><a href="#">Product 2:</a> <span class="price"> </span></p>
+      <p><a href="#">Product 3:</a> <span class="price"> </span></p>
+      <p><a href="#">Product 4:</a> <span class="price"> </span></p>
+      <hr>
+      <p>Total: <span class="price:" style="color:black"><b> </b></span></p>
+    </div>
+  </div>
+</div>
+<symbol id="icon-shopping-bag" viewBox="0 0 24 24"></symbol>
+</body>
+</html>

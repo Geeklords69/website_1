@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a411fc9e1f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/login.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <!--Top Header-->
+    <div class="main">
+        <div class="mainbox">
+            <ul>
+                <li><a href="">INR</a> <i class="fas fa-angle-down"></i></li>
+                <li><a href="">ENGLISH</a> <i class="fas fa-angle-down"></i> </li>
+                <li><a href="">MY ACCOUNT</a> </li>
+            </ul>
+            <h5>Cash On Delivery Available</h5>
+        </div>
+        <!--Sub Header-->
+
+        <div class="subbox">
+            <ol>
+                <li><a href="homepage.html">Home</a> </li>
+                <li><a href="">Login</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href=""> Cart</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+            </ol>
+            <div class="icons">
+                <i class="fas fa-search"></i>
+                <i class="fas fa-user"></i>
+                <div class="cartno">
+                    <i class="fas fa-shopping-cart"></i>
+                    <h4>0</h4>
+                </div>
+                <h2>Dreams Of Fashion</h2>
+            </div>
+        </div>
+    </div>
+
+    <!--Background-->
+    <div class="cont">
+        <div class="top">
+            <div class="cover">
+                <img src="images/login_bg.jpg" alt="#">
+            </div>
+            <!--login and signupp-->
+            <section class="c1">
+                <div class="main-container">
+                    <div class="title-text">
+                        <div class="title">Login </div>
+                        <div class="title">Signup </div>
+                    </div>
+                    <div class="form-container">
+
+                        <div class="slide-controls">
+                            <input type="radio" name="slide" id="login" checked>
+                            <input type="radio" name="slide" id="signup">
+                            <label for="login" class="slide login">Login</label>
+                            <label for="signup" class="slide signup">Signup</label>
+                            <div class="slider-tab"></div>
+                        </div>
+                        <div class="form-inner">
+                            <form action="#" class="login">
+                                <div class="lg"><input type="text" id="username" placeholder="Email Address" required>
+                                </div>
+                                <div class="lg"><input type="password" id="password" placeholder="Password" required>
+                                </div>
+                                <div class="forgotpass"><a href="#">Forgot Password?</a></div>
+                                <div class="lg1"><a href="homepage.html"><input type="submit" value="Login"
+                                            onclick="validate()"></a></div>
+                                <div class="signuplink">Not a member? <a href="#">Signup NOW</a></div>
+                            </form>
+                            <form action="#" class="signup">
+                                <div class="lg"><input type="text" id="susername" placeholder="Email Address" required>
+                                </div>
+                                <div class="lg"><input type="password" id="spassword" placeholder="Password" required>
+                                </div>
+                                <div class="lg"><input type="password" id="sspassword" placeholder=" ConfirmPassword"
+                                        required></div>
+                                <div class="lg1"><input type="submit" value="sign up" onclick="svalidate()"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <!--Js for login--->
+	<script type = "text/javascript" src = "js/login.js">
+    </script>
+    </section>
+</body>
+
+</html>

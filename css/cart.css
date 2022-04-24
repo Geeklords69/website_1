@@ -1,0 +1,413 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;500&family=Playfair+Display&display=swap');
+
+body {
+	background-color: #eee2dc;
+	margin: 0;
+}
+.header {
+	height: 80px;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+    background-color: #bab2b5;
+}
+.logo {
+	height: 80px;
+	width: 80px;
+	margin: 0px 60px 0px 100px;
+	float: left;
+}
+.headtext {
+	width: 600px;
+	margin: 0 0 0 400px;
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+    font-size: 58px;
+	color: #ac3b61;
+}
+
+.outer {
+	height: 800px;
+	width: 1544px;
+	margin: auto;
+}
+.cart {
+	text-align: left;
+	padding: 10px 0px 0px 10px;
+	border-bottom: 2px solid;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 30px;
+	color: #123c69;
+}
+
+.inner {
+	height: 696px;
+	width: 1260px;
+	margin: auto;
+	margin-top: 60px;
+}
+
+.bars {
+	height: 60px;
+	width: 100%;
+	background-color: #edc7b7;
+}
+.bar1, .step2bar2, .step3bar2 {
+	height: 93%;
+	width: 40%;
+	border: #123c69 2px solid;
+	float: left;
+	background-color: #bab2b5;
+}
+.bar2, .step3bar1 {
+	height: 93%;
+	border: #8e8d8a 2px solid;
+}
+
+.step {
+	height: 22px;
+	width: 68px;
+	margin: 14px 0 0 60px;
+	border: #adb1b8 1px solid;
+	border-radius: 5px;
+	padding: 4px 0 0 0;
+	float: left;
+	text-align: center;
+	font-family: 'Amazon Ember', Arial, sans-serif;
+	font-size: 16px;
+	color: #0f1111;
+	background-color: #cbcbcb;
+}
+
+#step1, #step2step2, #step3step3 {
+	color: white;
+	background-color: #123c69;
+}
+#step3, #step3step2 {
+	margin: 14px 0 0 280px;
+}
+
+.invcount {
+	height: 40px;
+	width: 100%;
+	border-bottom: 1px solid;
+	padding-top: 6px;
+	text-align: left;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 20px;
+}
+.item {
+	height: 150px;
+	width: 100%;
+	margin: 10px 0px 10px 0px;
+}
+.item_img {
+	height: 150px;
+	width: 150px;
+	float: left;
+	background-color: black;
+}
+.item_img img {
+	height: 100%;
+	width: 100%;
+}
+.item_name {
+	height: 50px;
+	width: 300px;
+	margin: 0 0 0 60px;
+	float: left;
+	text-align: left;
+	font-family: 'Advent Pro', sans-serif;
+	font-size: 36px;
+}
+.item_count {
+	height: 50px;
+	width: 300px;
+	margin-left: 450px;
+	float: left;
+}
+.item_specs {
+	height: 88px;
+	width: 1050px;
+	margin: 0px 0px 0px 60px;
+	padding: 10px 0px 0px 0px;
+	border-top: 1px solid;
+	text-align: left;
+	font-family: 'Advent Pro', sans-serif;
+	float: left;
+}
+
+.count {
+	height: 20px;
+	width: 20px;
+	margin: 15px 0px 15px 20px;
+	border: #c5cecb 1px solid;
+	text-align: center;
+	font-family: 'Garamond', serif;
+	float: left;
+}
+.price {
+	height: 24px;
+	width: 60px;
+	margin: 10px 0px 10px 20px;
+	padding: 4px 2px 0px 0px;
+	text-align: right;
+	font-family: 'Garamond', serif;
+	font-size: 18px;
+	float: left;
+}
+.add, .delete {
+	height: 20px;
+	width: 60px;
+	margin: 15px 0px 15px 20px;
+	padding: 0px;
+	float: left;
+	color: #39739d;
+	background-color: #e1ecf4;
+	border-radius: 3px;
+	border: 1px solid #7aa7c7;
+	text-align: center;
+	font-family: "Segoe UI","Liberation Sans",sans-serif;
+	font-size: 13px;
+	cursor: pointer;
+}
+
+.update_info {
+	height: auto;
+	width: 100%;
+	float: right;
+}
+
+.total {
+	height: 100%;
+	width: 180px;
+	margin-right: 8px;
+	padding: 4px 0 0 0;
+	float: right;
+	text-align: right;
+	font-family: 'Garamound', serif;
+	font-size: 18px;
+}
+.continue {
+	height: 48px;
+	width: 140px;
+	margin: 26px 0 0 0;
+	border: 2px solid #000;
+	float: right;
+	text-align: center;
+	line-height: 24px;
+	outline: 0;
+	background-color: #eee2dc;
+	color: #000;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	cursor: pointer;
+}
+.continue:hover {
+	color: #ac3b61;
+	border-color: #ac3b61;
+}
+#step2cont {
+	float: right;
+	margin: 37px 0 0 0;
+}
+
+.step2bar1, .step2bar3 {
+	height: 93%;
+	width: 29.52%;
+	border: #8e8d8a 2px solid;
+	float: left;
+}
+.step3bar1 {
+	width: 59.36%;
+	float: left;
+}
+.shipping_info {
+	height: 40px;
+	width: 100%;
+	border-bottom: 1px solid;
+	padding-top: 6px;
+	text-align: left;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 20px;
+}
+
+.row {
+	height: auto;
+	width: 40%;
+	margin: 8px 20px;
+	float: left;
+}
+#row7, #row8 {
+	width: 83%;
+}
+
+.row label {
+	width: 100%;
+	margin-bottom: 8px;
+	display: block;
+	color: rgba(0, 0, 0, 0.6);
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 1;
+	letter-spacing: 0.2em;
+}
+.row input , .row textarea {
+	width: 100%;
+	border: 0;
+	border-radius: 4px;
+	outline: none;
+	display: block;
+	background: rgba(0, 0, 0, 0.1);
+	box-sizing: border-box;
+	padding: 12px 20px;
+	color: rgba(0, 0, 0, 0.6);
+	font-family: inherit;
+	font-size: 16px;
+	font-weight: 500;
+}
+#delivery1, #delivery2 {
+	width: auto;
+	margin-bottom: 8px;
+}
+
+.save_info {
+	height: 36px;
+	width: 100%;
+	margin-top: 10px;
+	float: left;
+}
+#submit {
+	height: 34px;
+	width: 88px;
+	margin: 0 20px;
+	border-radius: 6px;
+	padding: 6px 16px;
+	background-color: #27ae60;
+	float: left;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-family: "Segoe UI",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 20px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#submit:hover {
+  background-color: #1e8449;
+  transition-duration: .35s;
+}
+
+
+
+.review_items {
+	height: 100%;
+	width: 80%;
+	float: left;
+}
+.checkout {
+	height: 80%;
+	width: 20%;
+	margin-top: 10px;
+	float: left;
+	background-color: #edc7b7;
+}
+
+
+.review_item {
+	height: 114px;
+	width: 100%;
+	margin: 10px 10px 0 0;
+	float: left;
+}
+.review_item_img {
+	height: 114px;
+	width: 114px;
+	float: left;
+}
+.review_item_img img {
+	height: 100%;
+	width: 100%;
+}
+.review_item_name {
+	height: 26px;
+	width: 250px;
+	margin: 0px 0px 0px 20px;
+	float: left;
+	text-align: left;
+	font-family: 'Advent Pro', sans-serif;
+	font-size: 26px;
+}
+.review_item_specs {
+	height: 82px;
+	width: 70%;
+	margin: 0 0 0 20px;
+	padding-top: 6px;
+	float: left;
+	text-align: left;
+	font-family: 'Advent Pro', sans-serif;
+}
+
+
+.bill_left {
+	width: 66%;
+	padding: 0 4% 0 0;
+	float: left;
+	text-align: right;
+}
+.bill_right {
+	width: 26%;
+	padding: 0 0 0 4%;
+	float: left;
+	text-align: left;
+}
+.bill_right span {
+	float: left;
+	margin-top: 22%;
+}
+
+.total_word {
+	height: auto;
+	width: 50%;
+	margin: 6% 0 0 0;
+	text-align: center;
+	font-size: 26px;
+	font-weight: 700;
+	float: left;
+}
+.grand {
+	height: auto;
+	width: 50%;
+	margin: 6% 0 0 0;
+	text-align: left;
+	font-family: "Helvetica", sans-serif;
+	font-size: 32px;
+	font-weight: 300;
+	float: left;
+}
+
+.checkout_button {
+	height: 10%;
+	width: 20%;
+	padding: 0 0 0 0;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 22px;
+	font-weight: 600;
+	float: left;
+	cursor: pointer;
+	color: white;
+	background-color: #ac3b61;
+}
+
+
+
+.bill, .total_word, .checkout_button {
+	font-family: "Calibri", sans-serif;
+}
+</style>
