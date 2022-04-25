@@ -27,66 +27,69 @@ body {
 	color: #ac3b61;
 }
 
-/* Main header*/
+.main {
+	height: auto;
+}
+
 .mainbox {
-  border: 1px solid transparent;
-  background-color: hotpink;
-  height: 30px;
+	border: 1px solid transparent;
+	background-color: hotpink;
+	height: auto;
 }
 ul {
-  float: left;
-  color: black;
+	float: left;
+	color: black;
 }
 ul li {
-  margin-top: -10px;
-  float: left;
-  position: relative;
-  left: 300%;
-  width: 100px;
-  font-size: 14px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  list-style-type: none;
+	margin-top: -10px;
+	float: left;
+	position: relative;
+	left: 300%;
+	width: 100px;
+	font-size: 16px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	list-style-type: none;
 }
 ul li a {
-  text-decoration: none;
-  color: black;
+	text-decoration: none;
+	color: black;
 }
 h5 {
-  margin-top: 10px;
-  color: black;
-  margin: 7px 12px;
-  position: relative;
-  left: -17rem;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-transform: uppercase;
-  font-size: 14px;
-  font-weight: normal;
+	margin-top: 10px;
+	color: black;
+	margin: 7px 12px;
+	left: -12.3%;
+	position: relative;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: normal;
 }
+
 /*subheader*/
 .subbox {
-  border: 1px solid transparent;
-  background-color: pink;
-  height: 50px;
+	border: 1px solid transparent;
+	background-color: pink;
+	height: 55px;
+	align: left;
 }
-ol {
-  float: left;
+
+span {
+	padding: 1%;
+	float: left;
+	list-style-type: none;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 16px;
 }
-ol li {
-  float: left;
-  width: 90px;
-  position: relative;
-  left: 45%;
-  list-style-type: none;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 16px;
+span a {
+	text-decoration: none;
+	color: black;
 }
-ol li a {
-  text-decoration: none;
-  color: black;
+span a:hover {
+	border-bottom: 4px solid rgb(0, 0, 0);
 }
-ol li a:hover {
-  border-bottom: 4px solid rgb(0, 0, 0);
-}
+
+
 .fa-search {
   position: absolute;
   left: 82%;

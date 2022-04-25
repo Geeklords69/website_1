@@ -42,5 +42,5 @@ function svalidate() {
 	}
 }
 function reload() {
-	window.location.href = "homepage.html/";
+	location.href = "homepage.html";
 }

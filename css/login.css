@@ -34,6 +34,10 @@ body {
 }
 
 /* Main header*/
+.main {
+	height: auto;
+}
+
 .mainbox {
 	border: 1px solid transparent;
 	background-color: hotpink;
@@ -73,7 +77,8 @@ h5 {
 .subbox {
 	border: 1px solid transparent;
 	background-color: pink;
-	height: 50px;
+	height: 55px;
+	align: left;
 }
 
 span {
@@ -145,11 +150,10 @@ h2 {
 
 /*login*/
 .c1 {
+  margin-top: 8%;
   display: grid;
   justify-items: left;
-
   float: right;
-  background-color: green;
 }
 .main-container {
   overflow: hidden;
