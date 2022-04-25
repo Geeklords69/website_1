@@ -29,116 +29,99 @@ body {
 
 .main {
 	height: auto;
+	background-color: red;
 }
 
 .mainbox {
-	border: 1px solid transparent;
-	background-color: hotpink;
 	height: auto;
-}
-ul {
+	width: 100%;
 	float: left;
-	color: black;
+	background-color: hotpink;
 }
-ul li {
-	margin-top: -10px;
-	float: left;
-	position: relative;
-	left: 300%;
-	width: 100px;
-	font-size: 16px;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	list-style-type: none;
-}
-ul li a {
-	text-decoration: none;
+
+.h5 {
 	color: black;
-}
-h5 {
-	margin-top: 10px;
-	color: black;
-	margin: 7px 12px;
-	left: -12.3%;
+	margin: 8px 16px;
 	position: relative;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	text-transform: uppercase;
 	font-size: 16px;
 	font-weight: normal;
+	float: left;
+}
+.one {
+	margin: 8px 0px 8px 65%;
+	float: left;
+}
+
+.icons {
+	height: auto;
+	width: auto;
+	margin-right: 1%;
+	float: right;
+}
+.two {
+	margin: 8px 16px 8px 0px;
+	float: left;
+}
+.two a {
+	text-decoration: none;
+	color: black;
+}
+
+.fa-search {
+	color: black;
+}
+.fa-user {
+	color: black;
+}
+.fa-shopping-cart {
+	color: black;
+	border-radius: 100px;
+	margin-right: 0px;
+	background-color: antiquewhite;
+	text-align: left;
+}
+.h4 {
+	color: black;
+	margin: 8px 16px 8px 0px;
+	float: left;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /*subheader*/
 .subbox {
-	border: 1px solid transparent;
 	background-color: pink;
-	height: 55px;
+	height: auto;
+	width: 100%;
 	align: left;
+	float: left;
 }
 
-span {
+.three {
 	padding: 1%;
 	float: left;
 	list-style-type: none;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-size: 16px;
 }
-span a {
+.three a {
 	text-decoration: none;
 	color: black;
 }
-span a:hover {
+.three a:hover {
 	border-bottom: 4px solid rgb(0, 0, 0);
 }
 
-
-.fa-search {
-  position: absolute;
-  left: 82%;
-  top: 9%;
-  color: black;
-}
-.fa-user {
-  position: absolute;
-  left: 85%;
-  top: 9%;
-  color: black;
-}
-.fa-shopping-cart {
-  position: absolute;
-  left: 88%;
-  top: 9%;
-  color: black;
-  width: 25px;
-  height: -30px;
-  border-radius: 100px;
-  background-color: antiquewhite;
-  margin-top: -2px;
-  margin-left: -4px;
-  text-align: left;
-}
-h4 {
-  color: red;
-  position: absolute;
-  left: 88.8%;
-  top: 4%;
-  width: 18px;
-  height: -50px;
-  border-radius: 100px;
-  text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-h2 {
-  position: relative;
-  left: -60%;
-  text-transform: uppercase;
-  font-style: italic;
-  padding-top: 10px;
-  margin-top: 4px;
-  font-weight: bolder;
+.cover {
+	float: right;
+	background-size: cover;
 }
 .cover {
   float: right;
   background-size: cover;
 }
+
 .text {
   position: absolute;
   top: 30%;
