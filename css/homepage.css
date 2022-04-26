@@ -29,7 +29,6 @@ body {
 
 .main {
 	height: auto;
-	background-color: red;
 }
 
 .mainbox {
@@ -113,44 +112,28 @@ body {
 	border-bottom: 4px solid rgb(0, 0, 0);
 }
 
-.cover {
-	float: right;
-	background-size: cover;
-}
-.cover {
-  float: right;
-  background-size: cover;
-}
+
 
 .text {
-  position: absolute;
-  top: 30%;
-  left: 7%;
+  height: auto;
+  width: 61.3%;
+  padding: 20% 0;
 }
 h1 {
-  font: 70px;
+  font: 72px;
   font-family: cursive;
-  text-transform: capitalize;
-  padding-top: 50px;
-  text-align: center;
-  width: 460px;
+  width: 560px;
   word-spacing: normal;
   line-height: 100%;
+  text-align: center;
 }
 h6 {
-  position: absolute;
-  top: 70px;
-  padding-top: 100px;
-  padding-left: 75px;
-  font-size: 20px;
+  font-size: 24px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: normal;
   text-transform: uppercase;
 }
 form input[type="submit"] {
-  position: absolute;
-  bottom: -180px;
-  left: 180px;
   padding: 10px;
   text-transform: uppercase;
   background-color: plum;
@@ -162,55 +145,47 @@ form input[type="submit"] {
 form input[type="submit"]:hover {
   background-color: hotpink;
 }
-
-/* filpcarts*/
-.productholder {
-  flex-wrap: wrap;
-  align-items: center;
-  padding-left: 150px;
-  justify-content: space-around;
-  float: center;
+.h1 {
+	display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.card {
-  float: left;
-  outline: 2px solid antiquewhite;
-  cursor: pointer;
-  display: flex;
-  flex-direction: column;
-  min-width: 200px;
-  max-width: 300px;
-  text-align: center;
-  min-height: 1rem;
-  margin: 1.5rem;
-  transition: 0.3s;
-  background-color: #f7c3b8;
-  box-shadow: black;
+.h6 {
+	display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.card:hover {
-  transform: scale(1.1);
-}
-.cardtext * {
-  margin: 0.5rem;
-}
-.category {
-  font-weight: 400;
-  opacity: 0.7;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: larger;
-  font-style: italic;
-}
-input[type="submit"] {
-  text-transform: uppercase;
-  background-color: plum;
-  border: none;
-  color: white;
-  font-family: sans-serif;
-  letter-spacing: 1px;
+.form1 {
+	display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-input[type="submit"]:hover {
-  background-color: hotpink;
+.cover {
+	float: right;
+	background-size: cover;
 }
-.bot {
-  padding-top: 60%;
+
+.cont {
+	height: 982px;
+}
+.top {
+
+}
+
+.bottom {
+	height: 30%;
+	width: 100%;
+	float: right;
+}
+.about {
+	width: 29%;
+	padding: 1%;
+	float: right;
+	text-align: justify;
+}
+.contact {
+	width: 66%;
+	padding: 1%;
+	float: right;
 }
